@@ -5,6 +5,16 @@ Python Source Code To Convert JPG TO PDF
 
 Change You Have To Made
 
-Change The Path of Banner Image In the Source Code
+# How to Use:
 
-Banner Image Provided
+1.  clone the repository using git clone command 
+```bash
+git clone https://github.com/Community-Programmer/JPG-TO-PDF-Convertor.git
+```
+
+2.  Open jpg_to_pdf.py and replace the path of the banner with the banner path provided in the folder (Line 20)
+
+3.  Now run the python file you will see the above Gui window
+
+
+
