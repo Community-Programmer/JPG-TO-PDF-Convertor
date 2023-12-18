@@ -17,7 +17,7 @@ root.geometry("390x550")
 canvas=Canvas(root,width=386,height=100)
 canvas.grid(row=0,column=0,columnspan=2)
 #DISPLAYING IT ON BANNER
-Banner=ImageTk.PhotoImage(Image.open("C:/Users/sonam/Desktop/sarthak/send py/meme/Banner.jpg"))
+Banner=ImageTk.PhotoImage(Image.open("Path of the banner"))
 canvas.create_image(0,0,image=Banner,anchor=NW )
 
 #BROWSE BOX
@@ -38,11 +38,11 @@ def browse():
     mylist.delete(0,END)
     filename=filedialog.askdirectory()
     box.insert(END,str(filename))
-    Img_list=glob.glob(str(filename) + "\*.jpg")
+    Img_list=glob.glob(str(filename) + "/*.jpg")
     Img_list.sort()
     for image in Img_list:
         a=""
-        Img=image.replace(filename+f"\{a}" ,"")
+        Img=image.replace(filename+f"/{a}" ,"")
         mylist.insert(END,Img)
 
 
