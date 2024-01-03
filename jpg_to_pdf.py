@@ -1,4 +1,3 @@
-from logging import exception
 from tkinter import *
 from tkinter import filedialog,simpledialog,messagebox
 import tkinter
